@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+    background-color: #2a2b2b;
+    color: #40fa23;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+}
+
+header p {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    margin-top: 40px;
+}
+
+.card {
+    border: 2px dashed white;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.card p {
+    margin: 15px;
+    text-align: center;
+    
+}
+
+.card-header {
+    width: 70%;
+    text-align: left;
+    left: 20px;
+    border: 2px solid white;
+    border-radius: 7px;
+    position: relative;
+    margin-top: -20px;
+    padding: 10px 10px;
+    font-weight: 400;
+    
+}
+
+.code-snippets {
+    color: white;
+    background-image: linear-gradient(
+        rgba(64, 250, 35, 0.3) 0%,
+        rgba(64, 250, 35, 0.6) 100%
+    );
+    border-radius: 7px;
+    margin: 15px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    user-select: all;
+}
+
+.card .card-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover .card-header {
+    box-shadow: inset 0px 0px 8px rgba(64, 250, 35, 1), 0 0 15px rgba(64, 250, 35, 1);
+}
+
+footer {
+    text-align: center;
+}
